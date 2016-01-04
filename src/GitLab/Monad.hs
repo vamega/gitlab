@@ -33,7 +33,7 @@ newtype GitLabT m a = GitLabT { unGitLabT :: ReaderT GitLabConfig m a }
   deriving
     ( Functor, Applicative, Monad, MonadIO
     , MonadReader GitLabConfig
-    , MonadResource, MonadThrow
+    -- , MonadResource, MonadThrow
     , MonadTrans
     )
 

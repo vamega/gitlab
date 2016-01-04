@@ -80,8 +80,8 @@ import Data.Time (Day, UTCTime, formatTime, parseTime)
 import System.Locale (defaultTimeLocale)
 import qualified Data.Text as T
 
-import Control.Lens ((&), (%~))
-import Control.Lens.Aeson (_Object)
+-- import Control.Lens ((&), (%~))
+-- import Data.Aeson.Lens (_Object)
 import Data.Aeson
 import Data.Aeson.TH
 import Data.Aeson.Types (typeMismatch)
